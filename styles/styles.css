@@ -232,4 +232,10 @@ h1 {
   padding-right: 30px;
   vertical-align: middle;
 }
+
+.social-media__blog:active {
+  right: 500px;
+  -webkit-transition: right .5s linear;
+  transition: right .5s linear;
+}
 /*# sourceMappingURL=styles.css.map */
