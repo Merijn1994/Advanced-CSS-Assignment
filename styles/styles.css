@@ -1,0 +1,235 @@
+/*Variables part 1 */
+/*Variables part 3 */
+body {
+  background: #c3cfe2;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Part 1 - Testimonial */
+.testimonial {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.testimonial__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial__top {
+  background: white;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.testimonial__top p {
+  color: #2e2c2c;
+  font-size: 2em;
+  margin: 50px;
+  line-height: 50px;
+}
+
+.testimonial__img {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), color-stop(50%, #686de0));
+  background: linear-gradient(to bottom, white 50%, #686de0 50%);
+}
+
+.testimonial__img img {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: 8px;
+  height: 150px;
+  width: 150px;
+  margin-left: 36%;
+}
+
+.testimonial__bottom {
+  background: #686de0;
+  border-radius: 0px 0px 30px 30px;
+  margin-bottom: 10px;
+}
+
+.testimonial__bottom h3 {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.testimonial__bottom h5 {
+  color: darkgray;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+/* Part 2 - Portfolio Grid */
+.portfolio__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(500px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 40px;
+  place-items: center;
+  margin: 40px;
+}
+
+.portfolio__img {
+  position: relative;
+}
+
+.portfolio__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.portfolio__button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background: #252121;
+  border-radius: 10px;
+}
+
+.portfolio__img:hover .portfolio__button {
+  opacity: 1;
+}
+
+.portfolio__button button {
+  position: absolute;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* Part 3 - Social Media Buttons */
+.social-media {
+  position: absolute;
+  right: 0;
+}
+
+.social-media__blog a {
+  background-color: #e17b77;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.social-media__twitter a {
+  background-color: #00aced;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.social-media__linkedin a {
+  background-color: #007bb6;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.social-media__facebook a {
+  background-color: #3b5998;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.social-media__github a {
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.social-media__blog a::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
+  content: "\f5fc";
+  font-weight: 900;
+  color: white;
+  display: inline-block;
+  padding: 5px 20px;
+  vertical-align: middle;
+}
+
+.social-media__twitter a::before {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 25px;
+  content: "\f099";
+  font-weight: 400;
+  color: white;
+  display: inline-block;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+
+.social-media__linkedin a::before {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 25px;
+  content: "\f0e1";
+  font-weight: 400;
+  color: white;
+  display: inline-block;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+
+.social-media__facebook a::before {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 25px;
+  content: "\f39e";
+  font-weight: 400;
+  color: white;
+  display: inline-block;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+
+.social-media__github a::before {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 25px;
+  content: "\f09b";
+  font-weight: 400;
+  color: white;
+  display: inline-block;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=styles.css.map */
