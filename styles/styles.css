@@ -1,5 +1,10 @@
 /*Variables part 1 */
 /*Variables part 3 */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background: #c3cfe2;
   margin: 0 auto;
@@ -155,6 +160,10 @@ h1 {
   text-align: center;
   -webkit-transform: translateX(220px);
           transform: translateX(220px);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 
 .social-media__blog a {
@@ -185,10 +194,6 @@ h1 {
 .social-media__blog:hover {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
 }
 
 .social-media__twitter {
@@ -198,6 +203,10 @@ h1 {
   text-align: center;
   -webkit-transform: translateX(220px);
           transform: translateX(220px);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 
 .social-media__twitter a {
@@ -228,10 +237,6 @@ h1 {
 .social-media__twitter:hover {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
 }
 
 .social-media__linkedin {
@@ -241,6 +246,10 @@ h1 {
   text-align: center;
   -webkit-transform: translateX(220px);
           transform: translateX(220px);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 
 .social-media__linkedin a {
@@ -271,10 +280,6 @@ h1 {
 .social-media__linkedin:hover {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
 }
 
 .social-media__facebook {
@@ -284,6 +289,10 @@ h1 {
   text-align: center;
   -webkit-transform: translateX(220px);
           transform: translateX(220px);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 
 .social-media__facebook a {
@@ -314,10 +323,6 @@ h1 {
 .social-media__facebook:hover {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
 }
 
 .social-media__github {
@@ -327,6 +332,10 @@ h1 {
   text-align: center;
   -webkit-transform: translateX(220px);
           transform: translateX(220px);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 
 .social-media__github a {
@@ -357,9 +366,5 @@ h1 {
 .social-media__github:hover {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
 }
 /*# sourceMappingURL=styles.css.map */

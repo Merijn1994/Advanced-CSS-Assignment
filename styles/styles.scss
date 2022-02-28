@@ -1,5 +1,8 @@
 @import "./constants";
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body{
     background: $color-body;
     margin: 0 auto;
@@ -132,8 +135,6 @@ h1{
         }
         &:hover{
             transform: translateX(0px);
-            transition-duration: 1s;
-            transition-timing-function: ease-in-out;
         }
     }
     &__twitter{
@@ -154,8 +155,6 @@ h1{
         }
         &:hover{
             transform: translateX(0px);
-            transition-duration: 1s;
-            transition-timing-function: ease-in-out;
         }
     }
     &__linkedin{
@@ -176,8 +175,6 @@ h1{
         }
         &:hover{
             transform: translateX(0px);
-            transition-duration: 1s;
-            transition-timing-function: ease-in-out;
         }
     }
     &__facebook{
@@ -198,8 +195,6 @@ h1{
         }
         &:hover{
             transform: translateX(0px);
-            transition-duration: 1s;
-            transition-timing-function: ease-in-out;
         }
     }
     &__github{
@@ -220,8 +215,6 @@ h1{
         }
         &:hover{
             transform: translateX(0px);
-            transition-duration: 1s;
-            transition-timing-function: ease-in-out;
         }
     }
 }

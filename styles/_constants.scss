@@ -17,6 +17,7 @@ $color-github: #333;
     width: 270px;
     text-align: center;
     transform: translateX(220px);
+    transition: transform 1s;
 }
 @mixin social-media-buttons-element{
     color: $color-white;
@@ -33,4 +34,7 @@ $color-github: #333;
 @mixin social-media-buttons-after{
     text-decoration: underline;
     font-size: 19px;
+}
+@mixin social-media-buttons-hover{
+
 }
