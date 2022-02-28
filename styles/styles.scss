@@ -116,93 +116,113 @@ h1{
     margin-bottom: 100px;
     &__blog{
         background-color: $color-blog;
-        padding: 15px;
-        width: 300px;
-        text-align: center;
+        @include social-media-buttons-class();
         & a{
-            color: $color-white;
+            @include social-media-buttons-element();
+            &::before{
+                font-family: "Font Awesome 5 Free";
+                content: "\f5fc";
+                font-weight: 900;
+                @include social-media-buttons-before();
+            }
+            &::after{
+                content:"Check out my blog";
+                @include social-media-buttons-after();
+            }
+        }
+        &:hover{
+            transform: translateX(0px);
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
         }
     }
     &__twitter{
         background-color: $color-twitter;
-        padding: 15px;
-        width: 300px;
-        text-align: center;
+        @include social-media-buttons-class();
         & a{
-            color: $color-white;
+            @include social-media-buttons-element();
+            &::before{
+                font-family: "Font Awesome 5 Brands";
+                content: "\f099";
+                font-weight: 400;
+                @include social-media-buttons-before();
+            }
+            &::after{
+                content:"Follow me on Twitter";
+                @include social-media-buttons-after();
+            }
+        }
+        &:hover{
+            transform: translateX(0px);
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
         }
     }
     &__linkedin{
         background-color: $color-linkedin;
-        padding: 15px;
-        width: 300px;
-        text-align: center;
+        @include social-media-buttons-class();
         & a{
-            color: $color-white;
+            @include social-media-buttons-element();
+            &::before{
+                font-family: "Font Awesome 5 Brands";
+                content: "\f0e1";
+                font-weight: 400;
+                @include social-media-buttons-before();
+            }
+            &::after{
+                content:"Connect on Linkedin";
+                @include social-media-buttons-after();
+            }
+        }
+        &:hover{
+            transform: translateX(0px);
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
         }
     }
     &__facebook{
         background-color: $color-facebook;
-        padding: 15px;
-        width: 300px;
-        text-align: center;
+        @include social-media-buttons-class();
         & a{
-            color: $color-white;
+            @include social-media-buttons-element();
+            &::before{
+                font-family: "Font Awesome 5 Brands";
+                content: "\f39e";
+                font-weight: 400;
+                @include social-media-buttons-before();
+            }
+            &::after{
+                content:"Like my Facebook page";
+                @include social-media-buttons-after();
+            }
+        }
+        &:hover{
+            transform: translateX(0px);
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
         }
     }
     &__github{
         background-color: $color-github;
-        padding: 15px;
-        width: 300px;
-        text-align: center;
+        @include social-media-buttons-class();
         & a{
-            color: $color-white;
+            @include social-media-buttons-element();
+            &::before{
+                font-family: "Font Awesome 5 Brands";
+                content: "\f09b";
+                font-weight: 400;
+                @include social-media-buttons-before();
+            }  
+            &::after{
+                content:"See projects on Github";
+                @include social-media-buttons-after();
+            }          
         }
-    }
-    &__blog a::before{
-        font-family: "Font Awesome 5 Free";
-        font-size: 25px;
-        content: "\f5fc";
-        font-weight: 900;
-        color: $color-white;
-        background-color: $color-blog;
-        display: inline-block;
-        width: 60px;
-
-    }
-    &__twitter a::before{
-        font-family: "Font Awesome 5 Brands";
-        font-size: 25px;
-        content: "\f099";
-        font-weight: 400;
-        color: $color-white;
-        display: inline-block;
-        width: 60px;
-    }
-    &__linkedin a::before{
-        font-family: "Font Awesome 5 Brands";
-        font-size: 25px;
-        content: "\f0e1";
-        font-weight: 400;
-        color: $color-white;
-    }
-    &__facebook a::before{
-        font-family: "Font Awesome 5 Brands";
-        font-size: 25px;
-        content: "\f39e";
-        font-weight: 400;
-        color: $color-white;
-    }
-    &__github a::before{
-        font-family: "Font Awesome 5 Brands";
-        font-size: 25px;
-        content: "\f09b";
-        font-weight: 400;
-        color: $color-white;
-    }
-    &__blog:active{
-        right: 500px;
-        transition: right .5s linear;
+        &:hover{
+            transform: translateX(0px);
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+        }
     }
 }
 

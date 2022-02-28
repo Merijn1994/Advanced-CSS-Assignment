@@ -11,3 +11,26 @@ $color-twitter: #00aced;
 $color-linkedin: #007bb6;
 $color-facebook: #3b5998;
 $color-github: #333;
+
+@mixin social-media-buttons-class{
+    padding: 15px;
+    width: 270px;
+    text-align: center;
+    transform: translateX(220px);
+}
+@mixin social-media-buttons-element{
+    color: $color-white;
+    display: flex;
+    text-decoration: none;
+}
+@mixin social-media-buttons-before{
+    font-size: 25px;
+    color: $color-white;
+    display: inline-block;
+    width: 50px;
+    margin-right: 30px;
+}
+@mixin social-media-buttons-after{
+    text-decoration: underline;
+    font-size: 19px;
+}
