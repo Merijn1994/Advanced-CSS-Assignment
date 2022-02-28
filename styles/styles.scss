@@ -109,42 +109,50 @@ h1{
 }
 /* Part 3 - Social Media Buttons */
 .social-media{
-    position: absolute;
-    right: 0;
-    &__blog a{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    &__blog{
         background-color: $color-blog;
         padding: 15px;
-        text-align: center;
-        display: block;
-        color: $color-white;
+        width: 190px;
+        & a{
+            color: $color-white;
+        }
     }
-    &__twitter a{
+    &__twitter{
         background-color: $color-twitter;
         padding: 15px;
-        text-align: center;
-        display: block;
-        color: $color-white;
+        width: 190px;
+        & a{
+            color: $color-white;
+        }
     }
-    &__linkedin a{
+    &__linkedin{
         background-color: $color-linkedin;
         padding: 15px;
-        text-align: center;
-        display: block;
-        color: $color-white;
+        width: 190px;
+        & a{
+            color: $color-white;
+        }
     }
-    &__facebook a{
+    &__facebook{
         background-color: $color-facebook;
         padding: 15px;
-        text-align: center;
-        display: block;
-        color: $color-white;
+        width: 190px;
+        & a{
+            color: $color-white;
+        }
     }
-    &__github a{
+    &__github{
         background-color: $color-github;
         padding: 15px;
-        text-align: center;
-        display: block;
-        color: $color-white;
+        width: 190px;
+        & a{
+            color: $color-white;
+        }
     }
     &__blog a::before{
         font-family: "Font Awesome 5 Free";
@@ -152,9 +160,7 @@ h1{
         content: "\f5fc";
         font-weight: 900;
         color: $color-white;
-        display: inline-block;
-        padding: 5px 20px;
-        vertical-align: middle;
+        background-color: $color-blog;
     }
     &__twitter a::before{
         font-family: "Font Awesome 5 Brands";
@@ -162,9 +168,6 @@ h1{
         content: "\f099";
         font-weight: 400;
         color: $color-white;
-        display: inline-block;
-        padding-right: 30px;
-        vertical-align: middle;
     }
     &__linkedin a::before{
         font-family: "Font Awesome 5 Brands";
@@ -172,9 +175,6 @@ h1{
         content: "\f0e1";
         font-weight: 400;
         color: $color-white;
-        display: inline-block;
-        padding-right: 30px;
-        vertical-align: middle;
     }
     &__facebook a::before{
         font-family: "Font Awesome 5 Brands";
@@ -182,9 +182,6 @@ h1{
         content: "\f39e";
         font-weight: 400;
         color: $color-white;
-        display: inline-block;
-        padding-right: 30px;
-        vertical-align: middle;
     }
     &__github a::before{
         font-family: "Font Awesome 5 Brands";
@@ -192,9 +189,6 @@ h1{
         content: "\f09b";
         font-weight: 400;
         color: $color-white;
-        display: inline-block;
-        padding-right: 30px;
-        vertical-align: middle;
     }
     &__blog:active{
         right: 500px;

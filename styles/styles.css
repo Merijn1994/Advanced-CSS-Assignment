@@ -134,47 +134,67 @@ h1 {
 
 /* Part 3 - Social Media Buttons */
 .social-media {
-  position: absolute;
-  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.social-media__blog {
+  background-color: #e17b77;
+  padding: 15px;
+  width: 190px;
 }
 
 .social-media__blog a {
-  background-color: #e17b77;
-  padding: 15px;
-  text-align: center;
-  display: block;
   color: white;
+}
+
+.social-media__twitter {
+  background-color: #00aced;
+  padding: 15px;
+  width: 190px;
 }
 
 .social-media__twitter a {
-  background-color: #00aced;
-  padding: 15px;
-  text-align: center;
-  display: block;
   color: white;
+}
+
+.social-media__linkedin {
+  background-color: #007bb6;
+  padding: 15px;
+  width: 190px;
 }
 
 .social-media__linkedin a {
-  background-color: #007bb6;
-  padding: 15px;
-  text-align: center;
-  display: block;
   color: white;
+}
+
+.social-media__facebook {
+  background-color: #3b5998;
+  padding: 15px;
+  width: 190px;
 }
 
 .social-media__facebook a {
-  background-color: #3b5998;
-  padding: 15px;
-  text-align: center;
-  display: block;
   color: white;
 }
 
-.social-media__github a {
+.social-media__github {
   background-color: #333;
   padding: 15px;
-  text-align: center;
-  display: block;
+  width: 190px;
+}
+
+.social-media__github a {
   color: white;
 }
 
@@ -184,9 +204,7 @@ h1 {
   content: "\f5fc";
   font-weight: 900;
   color: white;
-  display: inline-block;
-  padding: 5px 20px;
-  vertical-align: middle;
+  background-color: #e17b77;
 }
 
 .social-media__twitter a::before {
@@ -195,9 +213,6 @@ h1 {
   content: "\f099";
   font-weight: 400;
   color: white;
-  display: inline-block;
-  padding-right: 30px;
-  vertical-align: middle;
 }
 
 .social-media__linkedin a::before {
@@ -206,9 +221,6 @@ h1 {
   content: "\f0e1";
   font-weight: 400;
   color: white;
-  display: inline-block;
-  padding-right: 30px;
-  vertical-align: middle;
 }
 
 .social-media__facebook a::before {
@@ -217,9 +229,6 @@ h1 {
   content: "\f39e";
   font-weight: 400;
   color: white;
-  display: inline-block;
-  padding-right: 30px;
-  vertical-align: middle;
 }
 
 .social-media__github a::before {
@@ -228,9 +237,6 @@ h1 {
   content: "\f09b";
   font-weight: 400;
   color: white;
-  display: inline-block;
-  padding-right: 30px;
-  vertical-align: middle;
 }
 
 .social-media__blog:active {
