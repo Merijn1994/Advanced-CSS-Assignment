@@ -151,7 +151,8 @@ h1 {
 .social-media__blog {
   background-color: #e17b77;
   padding: 15px;
-  width: 190px;
+  width: 300px;
+  text-align: center;
 }
 
 .social-media__blog a {
@@ -161,7 +162,8 @@ h1 {
 .social-media__twitter {
   background-color: #00aced;
   padding: 15px;
-  width: 190px;
+  width: 300px;
+  text-align: center;
 }
 
 .social-media__twitter a {
@@ -171,7 +173,8 @@ h1 {
 .social-media__linkedin {
   background-color: #007bb6;
   padding: 15px;
-  width: 190px;
+  width: 300px;
+  text-align: center;
 }
 
 .social-media__linkedin a {
@@ -181,7 +184,8 @@ h1 {
 .social-media__facebook {
   background-color: #3b5998;
   padding: 15px;
-  width: 190px;
+  width: 300px;
+  text-align: center;
 }
 
 .social-media__facebook a {
@@ -191,7 +195,8 @@ h1 {
 .social-media__github {
   background-color: #333;
   padding: 15px;
-  width: 190px;
+  width: 300px;
+  text-align: center;
 }
 
 .social-media__github a {
@@ -205,6 +210,8 @@ h1 {
   font-weight: 900;
   color: white;
   background-color: #e17b77;
+  display: inline-block;
+  width: 60px;
 }
 
 .social-media__twitter a::before {
@@ -213,6 +220,8 @@ h1 {
   content: "\f099";
   font-weight: 400;
   color: white;
+  display: inline-block;
+  width: 60px;
 }
 
 .social-media__linkedin a::before {

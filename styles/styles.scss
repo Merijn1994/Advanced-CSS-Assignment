@@ -117,7 +117,8 @@ h1{
     &__blog{
         background-color: $color-blog;
         padding: 15px;
-        width: 190px;
+        width: 300px;
+        text-align: center;
         & a{
             color: $color-white;
         }
@@ -125,7 +126,8 @@ h1{
     &__twitter{
         background-color: $color-twitter;
         padding: 15px;
-        width: 190px;
+        width: 300px;
+        text-align: center;
         & a{
             color: $color-white;
         }
@@ -133,7 +135,8 @@ h1{
     &__linkedin{
         background-color: $color-linkedin;
         padding: 15px;
-        width: 190px;
+        width: 300px;
+        text-align: center;
         & a{
             color: $color-white;
         }
@@ -141,7 +144,8 @@ h1{
     &__facebook{
         background-color: $color-facebook;
         padding: 15px;
-        width: 190px;
+        width: 300px;
+        text-align: center;
         & a{
             color: $color-white;
         }
@@ -149,7 +153,8 @@ h1{
     &__github{
         background-color: $color-github;
         padding: 15px;
-        width: 190px;
+        width: 300px;
+        text-align: center;
         & a{
             color: $color-white;
         }
@@ -161,6 +166,9 @@ h1{
         font-weight: 900;
         color: $color-white;
         background-color: $color-blog;
+        display: inline-block;
+        width: 60px;
+
     }
     &__twitter a::before{
         font-family: "Font Awesome 5 Brands";
@@ -168,6 +176,8 @@ h1{
         content: "\f099";
         font-weight: 400;
         color: $color-white;
+        display: inline-block;
+        width: 60px;
     }
     &__linkedin a::before{
         font-family: "Font Awesome 5 Brands";
